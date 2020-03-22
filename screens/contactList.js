@@ -11,7 +11,7 @@ export default function ContactList({ navigation }) {
   return (
     <View style={globalStyles.container}>
       <Text>ContactList Screen</Text>
-      <Button title='back to my card screen' onPress={pressHandler} />
+      <Button title='back to card organization screen' onPress={pressHandler} />
     </View>
   );
 }

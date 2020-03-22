@@ -1,10 +1,10 @@
 import {createStackNavigator} from 'react-navigation-stack';
-import MyCard from '../screens/myCard';
 import ContactList from '../screens/contactList';
+import CardOrganization from '../screens/cardOrganization';
 
 const screens = {
-    MyCard: {
-        screen: MyCard
+    CardOrganization: {
+        screen: CardOrganization
     },
     ContactList: {
         screen: ContactList
